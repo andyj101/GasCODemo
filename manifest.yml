@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 1536M
+  instances: 1
+  domain: mybluemix.net
+  name: GasCO
+  host: GasCO
+  disk_quota: 1024M
+  services:
+  - GasCO-cloudantNoSQLDB
+  - GasCO-iotf-service
